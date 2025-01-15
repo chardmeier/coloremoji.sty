@@ -12,8 +12,9 @@ Installation
 
     mkdir -p ~/Library/texmf/tex/latex/local
     cd ~/Library/texmf/tex/latex/local
-    git clone git@github.com:alecjacobson/coloremoji.sty.git
+    git clone https://github.com/chardmeier/coloremoji.sty
     texhash coloremoji.sty
+    mktexlsr
 
 [Related blog entry](http://www.alecjacobson.com/weblog/?p=4018)
 
